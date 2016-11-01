@@ -1,0 +1,20 @@
+{
+  "name": "koa.get-started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/index.js -o app/index.js",
+    "watch": "babel -w src/index.js -o app/index.js"
+  },
+  "author": "nju33",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+  }
+}
